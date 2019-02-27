@@ -1,14 +1,18 @@
 module.exports = {
     dev: {
-        db_url: "",
-        port: "",
-        username: "",
-        password: ""
+        db: {
+            host: 'localhost',
+            user: 'root',
+            password: 'opcito1309',
+            database: 'tdc_dev'
+        }
     },
     prod: {
-        db_url: "",
-        port: "",
-        username: "",
-        password: ""
+        db: {
+            host: 'localhost',
+            user: 'root',
+            password: 'opcito1309',
+            database: 'tdc_dev'
+        }
     }
 }
