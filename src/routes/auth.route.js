@@ -1,7 +1,9 @@
 const express = require('express');
-const app = express();
+const passport = require('passport');
 
-app.post('/auth/login',
+var router = express.Router();
+
+router.post('/login',
 passport.authenticate('local'),
 function(req, res) {
   // If this function gets called, authentication was successful.
@@ -9,7 +11,7 @@ function(req, res) {
   res.redirect('/users/' + req.user.username);
 });
 
-app.post('/auth/register', 
+router.post('/register', 
     passport.authenticate('local'),
     function (req, res) {
         //call the db here
@@ -18,3 +20,5 @@ app.post('/auth/register',
         })
     }
 )
+
+module.exports = router;
