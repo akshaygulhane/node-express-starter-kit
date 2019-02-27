@@ -1,0 +1,11 @@
+export default {
+    CREATE_USER_TABLE : `CREATE TABLE USERS (
+        ID INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+        FIRST_NAME VARCHAR(100),
+        LAST_NAME VARCHAR(100),	
+        EMAIL VARCHAR(100),
+        PASSWORD varchar(255) ,
+        CREATED DATETIME
+    )`,
+
+}
