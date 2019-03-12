@@ -6,6 +6,6 @@ export default {
         EMAIL VARCHAR(100),
         PASSWORD varchar(255) ,
         CREATED DATETIME
-    )`,
+    );`,
 
 }

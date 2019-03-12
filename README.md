@@ -1,7 +1,5 @@
-# TDC Backend Service
+# Node Express Starte Kit
 
-# Dev Environment
-
-1. `git clone https://akshayopcito@bitbucket.org/akshayopcito/tdc_backend.git`
+1. `git clone https://github.com/akshaygulhane/node-express-starter-kit`
 2. `npm install`
 3. `set NODE_ENV=dev && npm start`

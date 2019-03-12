@@ -3,7 +3,7 @@ module.exports = {
         db: {
             host: 'localhost',
             user: 'root',
-            password: 'opcito1309',
+            password: '',
             database: 'tdc_dev'
         }
     },
@@ -11,7 +11,7 @@ module.exports = {
         db: {
             host: 'localhost',
             user: 'root',
-            password: 'opcito1309',
+            password: '',
             database: 'tdc_dev'
         }
     }
