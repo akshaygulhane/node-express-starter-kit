@@ -1,18 +1,18 @@
 module.exports = {
     dev: {
         db: {
-            host: 'localhost',
-            user: 'root',
+            host: '',
+            user: '',
             password: '',
-            database: 'tdc_dev'
+            database: ''
         }
     },
     prod: {
         db: {
-            host: 'localhost',
-            user: 'root',
+            host: '',
+            user: '',
             password: '',
-            database: 'tdc_dev'
+            database: ''
         }
     }
 }
